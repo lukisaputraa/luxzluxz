@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Form Pendaftaran</title>
+<style>
+  body { font-family: "Times New Roman", serif; margin: 20px; }
+  fieldset { padding: 10px 12px; }
+  p { margin: 12px 0; }
+</style>
+</head>
+<body>
+<h2>Form Pendaftaran</h2>
+<form>
+<fieldset>
+  <legend>Pendaftaran Siswa</legend>
+  <p>Nama Lengkap: <input type="text" placeholder="Masukkan nama lengkap"></p>
+  <p>NIS: <input type="text" placeholder="Masukkan NIS"></p>
+  <p>Jenis Kelamin:
+    <input type="radio" name="jk" id="lk"> <label for="lk">Laki-laki</label>
+    <input type="radio" name="jk" id="pr"> <label for="pr">Perempuan</label></p>
+  <p>Tanggal Lahir: <input type="date"></p>
+  <p>Jurusan:
+    <select>
+      <option value="">-- Pilih Jurusan --</option>
+      <option>PPLG</option><option>TJKT</option><option>DKV</option><option>Akuntansi</option>
+    </select></p>
+  <p>Alamat:<br><textarea rows="4" cols="40" placeholder="Masukkan alamat lengkap"></textarea></p>
+  <p>Foto: <input type="file"></p>
+  <p><input type="checkbox" id="setuju"> <label for="setuju">Saya menyetujui data yang saya masukkan</label></p>
+  <p><button type="submit" formaction="../Tugas 9 2orang/index.html">Daftar</button> <button type="reset">Reset</button></p>
+</fieldset>
+</form>
+</body>
+</html>
